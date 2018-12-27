@@ -1,0 +1,29 @@
+{
+  "name": "@modernjs/debug",
+  "version": "1.0.0",
+  "description": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "mocha test.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmshit/debug.git"
+  },
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npmshit/debug/issues"
+  },
+  "homepage": "https://github.com/npmshit/debug#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.31",
+    "debug": "^4.1.1",
+    "mocha": "^5.2.0"
+  }
+}
