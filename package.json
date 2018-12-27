@@ -1,6 +1,6 @@
 {
   "name": "@modernjs/debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
